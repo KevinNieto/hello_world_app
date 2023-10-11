@@ -7,11 +7,18 @@ void main() {
 }
 
 class MyApp extends StatelessWidget{
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(
-      home: Center(child: Text('Hola Mundo'))
+    // La palabra Const dice que eso jamas va a cambiar
+    return const MaterialApp(
+      //Para quitar el banner de debug en la app
+      debugShowCheckedModeBanner: false,
+      //Scaffold: Viene siendo como el SafeAreaView
+      home: Scaffold(
+        body: Center(child: Text('Hola Mundo')),
+      )
     );
   }
 
