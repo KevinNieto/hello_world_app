@@ -10,8 +10,24 @@ class CouunterScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Counter Screen')),
+    return  Scaffold(
+      body: const Center(
+        child:  Column(
+          //Centra el componente
+          mainAxisAlignment: MainAxisAlignment.center,
+          children:  [
+            Text('10', style: TextStyle(fontSize: 160, fontWeight: FontWeight.w100)),
+            Text('Clicks', style: TextStyle(fontSize: 25))
+          ],
+        )
+        
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+
+        },
+        child: const Icon(Icons.plus_one),
+        ),
     );
   }
 }
