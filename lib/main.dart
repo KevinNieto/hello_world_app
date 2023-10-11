@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world_app/presentation/screens/counter/counter_screen.dart';
 
 void main() {
 
 //Configuraciones iniciales de la app
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget{
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget{
       //Para quitar el banner de debug en la app
       debugShowCheckedModeBanner: false,
       //Scaffold: Viene siendo como el SafeAreaView
-      home: Scaffold(
-        body: Center(child: Text('Hola Mundo')),
-      )
+      home: CouunterScreen()
     );
   }
 
