@@ -1,10 +1,10 @@
 # hello_world_app
 
-A new Flutter project.
+Aplicacion de Aprendizaje del curso de Fernando Herrera.
 
-## Getting Started
+##Importante
 
-This project is a starting point for a Flutter application.
+Este codigo trae bastantes cometarios personales como documentacion en español o como comparacion con otras herramientas usadas por mi persona en el pasado.
 
 A few resources to get you started if this is your first Flutter project:
 
